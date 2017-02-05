@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		014086C71E47295D007E77E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086C61E47295D007E77E6 /* AppDelegate.swift */; };
-		014086C91E47295D007E77E6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086C81E47295D007E77E6 /* FirstViewController.swift */; };
-		014086CB1E47295D007E77E6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086CA1E47295D007E77E6 /* SecondViewController.swift */; };
 		014086CE1E47295D007E77E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014086CC1E47295D007E77E6 /* Main.storyboard */; };
 		014086D01E47295D007E77E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014086CF1E47295D007E77E6 /* Assets.xcassets */; };
 		014086D31E47295D007E77E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014086D11E47295D007E77E6 /* LaunchScreen.storyboard */; };
+		014086E01E472CBA007E77E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086DF1E472CBA007E77E6 /* AppDelegate.swift */; };
+		014086E21E472CE7007E77E6 /* DealsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086E11E472CE7007E77E6 /* DealsListTableViewController.swift */; };
+		014086E61E472D95007E77E6 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086E51E472D95007E77E6 /* SettingsTableViewController.swift */; };
+		014086E81E473523007E77E6 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086E71E473523007E77E6 /* Deal.swift */; };
+		014086EA1E47352F007E77E6 /* DealParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086E91E47352F007E77E6 /* DealParser.swift */; };
+		014086EC1E473540007E77E6 /* ContentDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086EB1E473540007E77E6 /* ContentDispatcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		014086C31E47295D007E77E6 /* DealsLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealsLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		014086C61E47295D007E77E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		014086C81E47295D007E77E6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		014086CA1E47295D007E77E6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		014086CD1E47295D007E77E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		014086CF1E47295D007E77E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014086D21E47295D007E77E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		014086D41E47295D007E77E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014086DF1E472CBA007E77E6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Controller/AppDelegate.swift; sourceTree = "<group>"; };
+		014086E11E472CE7007E77E6 /* DealsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DealsListTableViewController.swift; path = Controller/DealsListTableViewController.swift; sourceTree = "<group>"; };
+		014086E51E472D95007E77E6 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsTableViewController.swift; path = Controller/SettingsTableViewController.swift; sourceTree = "<group>"; };
+		014086E71E473523007E77E6 /* Deal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deal.swift; path = Model/Deal.swift; sourceTree = "<group>"; };
+		014086E91E47352F007E77E6 /* DealParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DealParser.swift; path = Model/DealParser.swift; sourceTree = "<group>"; };
+		014086EB1E473540007E77E6 /* ContentDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentDispatcher.swift; path = Model/ContentDispatcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		014086C51E47295D007E77E6 /* DealsLister */ = {
 			isa = PBXGroup;
 			children = (
-				014086C61E47295D007E77E6 /* AppDelegate.swift */,
-				014086C81E47295D007E77E6 /* FirstViewController.swift */,
-				014086CA1E47295D007E77E6 /* SecondViewController.swift */,
+				014086DC1E472C77007E77E6 /* Controller */,
+				014086DB1E472C71007E77E6 /* View */,
+				014086DA1E472C6D007E77E6 /* Model */,
 				014086CC1E47295D007E77E6 /* Main.storyboard */,
 				014086CF1E47295D007E77E6 /* Assets.xcassets */,
 				014086D11E47295D007E77E6 /* LaunchScreen.storyboard */,
 				014086D41E47295D007E77E6 /* Info.plist */,
 			);
 			path = DealsLister;
+			sourceTree = "<group>";
+		};
+		014086DA1E472C6D007E77E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				014086E71E473523007E77E6 /* Deal.swift */,
+				014086E91E47352F007E77E6 /* DealParser.swift */,
+				014086EB1E473540007E77E6 /* ContentDispatcher.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		014086DB1E472C71007E77E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		014086DC1E472C77007E77E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				014086DF1E472CBA007E77E6 /* AppDelegate.swift */,
+				014086E11E472CE7007E77E6 /* DealsListTableViewController.swift */,
+				014086E51E472D95007E77E6 /* SettingsTableViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				014086CB1E47295D007E77E6 /* SecondViewController.swift in Sources */,
-				014086C71E47295D007E77E6 /* AppDelegate.swift in Sources */,
-				014086C91E47295D007E77E6 /* FirstViewController.swift in Sources */,
+				014086E01E472CBA007E77E6 /* AppDelegate.swift in Sources */,
+				014086E21E472CE7007E77E6 /* DealsListTableViewController.swift in Sources */,
+				014086EC1E473540007E77E6 /* ContentDispatcher.swift in Sources */,
+				014086E61E472D95007E77E6 /* SettingsTableViewController.swift in Sources */,
+				014086E81E473523007E77E6 /* Deal.swift in Sources */,
+				014086EA1E47352F007E77E6 /* DealParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
