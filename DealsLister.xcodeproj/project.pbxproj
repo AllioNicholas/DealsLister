@@ -16,6 +16,7 @@
 		014086E81E473523007E77E6 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086E71E473523007E77E6 /* Deal.swift */; };
 		014086EA1E47352F007E77E6 /* DealParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086E91E47352F007E77E6 /* DealParser.swift */; };
 		014086EC1E473540007E77E6 /* ContentDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086EB1E473540007E77E6 /* ContentDispatcher.swift */; };
+		014086EE1E48982D007E77E6 /* DealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014086ED1E48982D007E77E6 /* DealTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		014086E71E473523007E77E6 /* Deal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deal.swift; path = Model/Deal.swift; sourceTree = "<group>"; };
 		014086E91E47352F007E77E6 /* DealParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DealParser.swift; path = Model/DealParser.swift; sourceTree = "<group>"; };
 		014086EB1E473540007E77E6 /* ContentDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentDispatcher.swift; path = Model/ContentDispatcher.swift; sourceTree = "<group>"; };
+		014086ED1E48982D007E77E6 /* DealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DealTableViewCell.swift; path = View/DealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		014086DB1E472C71007E77E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				014086ED1E48982D007E77E6 /* DealTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				014086E61E472D95007E77E6 /* SettingsTableViewController.swift in Sources */,
 				014086E81E473523007E77E6 /* Deal.swift in Sources */,
 				014086EA1E47352F007E77E6 /* DealParser.swift in Sources */,
+				014086EE1E48982D007E77E6 /* DealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +344,7 @@
 				014086D91E47295D007E77E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
