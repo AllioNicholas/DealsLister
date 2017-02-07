@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Deals List Table View Controller-->
+        <!--Deals-->
         <scene sceneID="RAW-hQ-NZ9">
             <objects>
                 <tableViewController id="lIc-ez-0xX" customClass="DealsListTableViewController" customModule="DealsLister" customModuleProvider="target" sceneMemberID="viewController">
@@ -117,7 +117,7 @@
                             <outlet property="delegate" destination="lIc-ez-0xX" id="bgR-zT-PWB"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="ZV2-7l-byi"/>
+                    <navigationItem key="navigationItem" title="Deals" id="ZV2-7l-byi"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dM6-3D-y2o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,7 +180,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="404"/>
         </scene>
-        <!--Settings Table View Controller-->
+        <!--Settings-->
         <scene sceneID="ic2-VN-TCv">
             <objects>
                 <tableViewController id="GUw-NI-tLq" customClass="SettingsTableViewController" customModule="DealsLister" customModuleProvider="target" sceneMemberID="viewController">
@@ -223,7 +223,7 @@
                             <outlet property="delegate" destination="GUw-NI-tLq" id="L2H-e4-tyS"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="uuk-sg-p5t"/>
+                    <navigationItem key="navigationItem" title="Settings" id="uuk-sg-p5t"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QhV-9r-d8e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
