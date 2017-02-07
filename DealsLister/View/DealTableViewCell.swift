@@ -18,6 +18,7 @@ class DealTableViewCell: UITableViewCell {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     func setImage(data: Data?) {
+        self.activityIndicator.startAnimating()
         if let data = data {
             self.backgroundImage.image = UIImage(data: data)
             self.activityIndicator.stopAnimating()

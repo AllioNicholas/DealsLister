@@ -78,9 +78,8 @@
                                             <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <size key="shadowOffset" width="1" height="1"/>
                                         </label>
-                                        <activityIndicatorView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="x51-bJ-G1P">
+                                        <activityIndicatorView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="x51-bJ-G1P">
                                             <rect key="frame" x="177" y="64" width="20" height="20"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="color" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         </activityIndicatorView>
                                     </subviews>
@@ -88,12 +87,14 @@
                                         <constraint firstItem="QBS-tX-7oN" firstAttribute="bottom" secondItem="91U-mm-wmv" secondAttribute="bottomMargin" id="2dg-a6-BC5"/>
                                         <constraint firstItem="ZGn-gR-SFs" firstAttribute="top" secondItem="91U-mm-wmv" secondAttribute="topMargin" id="4os-e2-sS2"/>
                                         <constraint firstAttribute="trailing" secondItem="57e-Me-7Vh" secondAttribute="trailing" id="6xZ-AX-cFO"/>
+                                        <constraint firstItem="x51-bJ-G1P" firstAttribute="centerY" secondItem="91U-mm-wmv" secondAttribute="centerY" id="8r3-Jo-Nh4"/>
                                         <constraint firstItem="57e-Me-7Vh" firstAttribute="top" secondItem="91U-mm-wmv" secondAttribute="top" id="CVj-Ev-13n"/>
                                         <constraint firstItem="6ox-Z7-gn6" firstAttribute="bottom" secondItem="91U-mm-wmv" secondAttribute="bottomMargin" id="EIb-Pn-L8p"/>
                                         <constraint firstAttribute="bottom" secondItem="57e-Me-7Vh" secondAttribute="bottom" id="JLn-oR-Gzb"/>
                                         <constraint firstItem="gqT-hY-e5k" firstAttribute="leading" secondItem="91U-mm-wmv" secondAttribute="leadingMargin" id="Qv0-dg-dCT"/>
                                         <constraint firstItem="OCC-Xb-CXr" firstAttribute="bottom" secondItem="91U-mm-wmv" secondAttribute="bottomMargin" id="W8i-pi-dqx"/>
                                         <constraint firstItem="57e-Me-7Vh" firstAttribute="leading" secondItem="91U-mm-wmv" secondAttribute="leading" id="Xkt-Yv-4c6"/>
+                                        <constraint firstItem="x51-bJ-G1P" firstAttribute="centerX" secondItem="91U-mm-wmv" secondAttribute="centerX" id="fPY-I2-eSz"/>
                                         <constraint firstItem="OCC-Xb-CXr" firstAttribute="leading" secondItem="91U-mm-wmv" secondAttribute="leadingMargin" id="fS5-Fr-mMp"/>
                                         <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="ZGn-gR-SFs" secondAttribute="trailing" constant="8" id="hEG-KW-l7x"/>
                                         <constraint firstItem="ZGn-gR-SFs" firstAttribute="leading" secondItem="gqT-hY-e5k" secondAttribute="trailing" constant="8" id="ivZ-Sx-EF3"/>
